@@ -6,7 +6,8 @@ const links = [
   { href: "#chi-sono", label: "Chi sono" },
   { href: "#servizi", label: "Servizi" },
   { href: "#metodo", label: "Metodo" },
-  { href: "#casi", label: "Storie" },
+  { href: "#per-chi", label: "Per chi" },
+  { href: "#faq", label: "FAQ" },
   { href: "#contatti", label: "Contatti" },
 ];
 

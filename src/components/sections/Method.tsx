@@ -2,22 +2,22 @@ const steps = [
   {
     n: "01",
     title: "Ascolto",
-    desc: "Accolgo la tua storia, senza fretta e senza giudizio.",
+    desc: "Un primo colloquio per conoscerci. Tu racconti, io ascolto davvero — senza fretta e senza giudizio.",
   },
   {
     n: "02",
-    title: "Analisi",
-    desc: "Insieme diamo forma e nome ai frammenti che porti.",
+    title: "Mappatura",
+    desc: "Diamo un nome ai frammenti: emozioni, paure, bisogni reali. Capiamo da dove partire.",
   },
   {
     n: "03",
-    title: "Percorso",
-    desc: "Costruiamo un cammino calibrato sui tuoi bisogni reali.",
+    title: "Percorso sartoriale",
+    desc: "Costruisco un percorso unico per te. Niente protocolli standard, solo strumenti che funzionano nella tua vita.",
   },
   {
     n: "04",
-    title: "Evoluzione",
-    desc: "Dai frammenti a una visione completa di te stesso.",
+    title: "Ricostruzione",
+    desc: "Passo dopo passo, torni a sentirti integra, sicura e protagonista delle tue scelte.",
   },
 ];
 
@@ -30,10 +30,11 @@ const Method = () => {
             Il metodo
           </span>
           <h2 className="mt-4 text-3xl font-semibold leading-tight text-foreground sm:text-4xl lg:text-5xl">
-            Il metodo Frammenti
+            Il Metodo Frammenti
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
-            Quattro fasi per trasformare frammenti dispersi in una visione integra di sé.
+            Un approccio sartoriale in quattro fasi: dalla confusione alla chiarezza,
+            dalla solitudine a una guida concreta accanto a te.
           </p>
         </div>
 

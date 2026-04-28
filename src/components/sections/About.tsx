@@ -1,9 +1,9 @@
 import { Heart, Compass, Sparkles } from "lucide-react";
 
 const points = [
-  { icon: Heart, text: "Psicologa specializzata nell'ascolto profondo" },
-  { icon: Compass, text: "Approccio centrato sulla persona" },
-  { icon: Sparkles, text: "Percorsi personalizzati e su misura" },
+  { icon: Heart, text: "8 anni di esperienza nel sostegno psicologico" },
+  { icon: Compass, text: "Specializzata in maternità e fragilità emotive" },
+  { icon: Sparkles, text: "Approccio sartoriale, mai standardizzato" },
 ];
 
 const About = () => {
@@ -15,17 +15,21 @@ const About = () => {
             Chi sono
           </span>
           <h2 className="text-3xl font-semibold leading-tight text-foreground sm:text-4xl lg:text-5xl">
-            Chi ti accompagnerà in questo percorso
+            Una guida concreta, accanto a te
           </h2>
           <div className="space-y-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
             <p>
-              Credo che ogni persona porti con sé una storia unica, fatta di luci, ombre
-              e frammenti che chiedono solo di essere ascoltati.
+              Sono una psicologa con otto anni di esperienza al fianco di donne che attraversano
+              la gravidanza, la maternità e i momenti più fragili della vita.
             </p>
             <p>
-              Il mio lavoro nasce dal desiderio di offrire uno spazio sicuro, accogliente
-              e libero da giudizio — dove poter rallentare, capire, e tornare a scegliere
-              con consapevolezza.
+              Credo nella relazione terapeutica come spazio reale: niente distanza clinica,
+              niente protocolli rigidi. Solo ascolto profondo, parole oneste e strumenti
+              che funzionano davvero nella tua quotidianità.
+            </p>
+            <p>
+              Il mio obiettivo non è darti una risposta preconfezionata, ma aiutarti a costruire
+              la <span className="font-semibold text-foreground">tua</span>.
             </p>
           </div>
         </div>

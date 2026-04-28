@@ -11,8 +11,8 @@ const contacts = [
   {
     icon: Mail,
     label: "Email",
-    value: "ciao@studiofrAmmenti.it",
-    href: "mailto:ciao@studiofrAmmenti.it",
+    value: "ciao@studioframmenti.net",
+    href: "mailto:ciao@studioframmenti.net",
   },
   {
     icon: MapPin,

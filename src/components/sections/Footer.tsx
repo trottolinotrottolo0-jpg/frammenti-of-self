@@ -6,8 +6,9 @@ const Footer = () => {
           Studio Frammenti
         </p>
         <p className="text-sm tracking-widest text-muted-foreground">
-          Psicologia · Ascolto · Crescita
+          Psicologia · Maternità · Ascolto
         </p>
+        <p className="text-xs text-muted-foreground">studioframmenti.net</p>
         <p className="mt-4 text-xs text-muted-foreground">
           © {new Date().getFullYear()} Studio Frammenti — Tutti i diritti riservati
         </p>

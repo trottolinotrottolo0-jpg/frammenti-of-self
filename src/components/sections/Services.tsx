@@ -1,31 +1,36 @@
 import { Button } from "@/components/ui/button";
-import { Wind, Sprout, Users, HeartHandshake, Footprints } from "lucide-react";
+import { Baby, Wind, HeartHandshake, Brain, Sparkles, Utensils } from "lucide-react";
 
 const services = [
   {
+    icon: Baby,
+    title: "Sostegno alla maternità",
+    desc: "Gravidanza, post parto, genitorialità: ti accompagno nel passaggio più trasformativo della tua vita.",
+  },
+  {
     icon: Wind,
-    title: "Ansia e stress",
-    desc: "Ritrovare calma, respiro e gestione delle emozioni quotidiane.",
-  },
-  {
-    icon: Sprout,
-    title: "Crescita personale",
-    desc: "Conoscersi a fondo per sbloccare nuove possibilità di vita.",
-  },
-  {
-    icon: Users,
-    title: "Relazioni",
-    desc: "Migliorare i legami con sé stessi e con gli altri.",
+    title: "Ansia, panico, depressione",
+    desc: "Strumenti concreti per gestire emozioni intense, anche pre e post parto.",
   },
   {
     icon: HeartHandshake,
-    title: "Supporto emotivo",
-    desc: "Uno spazio sicuro nei momenti di transizione o difficoltà.",
+    title: "Autostima ed emozioni",
+    desc: "Tornare a riconoscerti, fidarti di te e ricostruire un dialogo gentile con te stessa.",
   },
   {
-    icon: Footprints,
-    title: "Percorsi individuali",
-    desc: "Accompagnamento personalizzato passo dopo passo.",
+    icon: Brain,
+    title: "Disturbi del neurosviluppo",
+    desc: "Valutazione e supporto per genitori che affrontano difficoltà evolutive nei figli.",
+  },
+  {
+    icon: Sparkles,
+    title: "Traumi e stress",
+    desc: "Spazio sicuro per elaborare ferite, blocchi e sovraccarichi emotivi.",
+  },
+  {
+    icon: Utensils,
+    title: "Disturbi alimentari",
+    desc: "Lavoro sul rapporto con il corpo, il cibo e l'immagine di sé.",
   },
 ];
 
@@ -41,7 +46,7 @@ const Services = () => {
             Come posso aiutarti
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
-            Ogni percorso è costruito intorno a te. Ecco le aree in cui possiamo lavorare insieme.
+            Consulenze 1:1 costruite intorno a te. In studio o online.
           </p>
         </div>
 
@@ -62,7 +67,7 @@ const Services = () => {
 
         <div className="mt-14 flex justify-center">
           <Button asChild variant="hero" size="lg">
-            <a href="#prenotazione">Prenota ora</a>
+            <a href="#prenotazione">Prenota il primo colloquio · 50€</a>
           </Button>
         </div>
       </div>
