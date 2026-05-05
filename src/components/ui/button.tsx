@@ -17,7 +17,7 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         hero: "bg-gradient-primary text-primary-foreground shadow-soft hover:shadow-glow hover:-translate-y-0.5 transition-smooth rounded-full",
         soft: "bg-aqua-soft text-aqua-deep hover:bg-aqua/40 transition-smooth rounded-full border border-aqua/30",
-        whatsapp: "bg-white text-primary border border-border hover:border-lilac hover:shadow-soft transition-smooth rounded-full",
+        whatsapp: "bg-aqua-deep text-white border border-aqua-deep hover:bg-aqua-deep/90 hover:border-aqua-deep/90 hover:shadow-soft transition-smooth rounded-full",
       },
       size: {
         default: "h-10 px-4 py-2",

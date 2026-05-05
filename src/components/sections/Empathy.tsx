@@ -10,7 +10,6 @@ const feelings = [
 const Empathy = () => {
   return (
     <section id="empatia" className="relative overflow-hidden py-24 lg:py-32">
-      <div className="absolute inset-0 bg-gradient-soft opacity-60" aria-hidden />
       <div className="container relative mx-auto px-4">
         <div className="mx-auto max-w-3xl text-center">
           <span className="text-xs font-medium uppercase tracking-[0.25em] text-aqua-deep">

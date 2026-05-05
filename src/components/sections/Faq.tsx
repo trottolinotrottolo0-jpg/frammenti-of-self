@@ -38,7 +38,7 @@ const faqs = [
 
 const Faq = () => {
   return (
-    <section id="faq" className="bg-gradient-soft py-24 lg:py-32">
+    <section id="faq" className="py-24 lg:py-32">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-2xl text-center">
           <span className="text-xs font-medium uppercase tracking-[0.25em] text-aqua-deep">

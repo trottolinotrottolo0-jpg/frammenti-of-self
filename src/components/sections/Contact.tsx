@@ -1,8 +1,9 @@
-import { MessageCircle, Mail, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
+import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
 
 const contacts = [
   {
-    icon: MessageCircle,
+    icon: WhatsAppIcon,
     label: "WhatsApp",
     value: "Scrivimi subito",
     href: "https://wa.me/393000000000",
@@ -24,7 +25,7 @@ const contacts = [
 
 const Contact = () => {
   return (
-    <section id="contatti" className="bg-gradient-soft py-24 lg:py-32">
+    <section id="contatti" className="py-24 lg:py-32">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-2xl text-center">
           <span className="text-xs font-medium uppercase tracking-[0.25em] text-aqua-deep">
@@ -44,13 +45,13 @@ const Contact = () => {
               rel="noopener noreferrer"
               className={`group flex flex-col items-start gap-4 rounded-3xl p-8 transition-smooth hover:-translate-y-1 ${
                 highlight
-                  ? "bg-gradient-primary text-primary-foreground shadow-card hover:shadow-glow"
+                  ? "bg-aqua-deep text-white shadow-card hover:bg-aqua-deep/90 hover:shadow-glow"
                   : "bg-card shadow-soft hover:shadow-card"
               }`}
             >
               <span
                 className={`flex h-12 w-12 items-center justify-center rounded-xl ${
-                  highlight ? "bg-white/15" : "bg-lilac-soft text-lilac-deep"
+                  highlight ? "bg-white/20 text-white" : "bg-lilac-soft text-lilac-deep"
                 }`}
               >
                 <Icon className="h-5 w-5" />
