@@ -90,6 +90,7 @@
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -119,6 +120,15 @@
       opacity: 1;
       transform: translateY(0);
     }
+  }
+
+  /* Fluid typography helpers */
+  .fluid-hero {
+    font-size: clamp(1.62rem, 6.6vw, 2.88rem);
+  }
+
+  .fluid-h2 {
+    font-size: clamp(1.5rem, 3.5vw, 3rem);
   }
 
   .hero-intro {

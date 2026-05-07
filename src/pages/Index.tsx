@@ -11,6 +11,9 @@ import Booking from "@/components/sections/Booking";
 import Faq from "@/components/sections/Faq";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/sections/Footer";
+import RevealImage from "@/components/ui/RevealImage";
+import immagine1 from "@/assets/immagine 1.jpg";
+import immagine2 from "@/assets/immagine 2.jpg";
 
 const Index = () => {
   useLayoutEffect(() => {
@@ -91,10 +94,57 @@ const Index = () => {
       <Navbar />
       <Hero />
       <Empathy />
+
+      {/* Immagine 1 — dopo Empathy: quote + foto studio */}
+      <section className="py-10 lg:py-16">
+        <div className="container mx-auto px-4">
+          <div className="grid items-center gap-8 lg:grid-cols-2">
+            <RevealImage
+              src={immagine2}
+              alt="Donna in un momento di riflessione davanti ai suoi appunti"
+              className="overflow-hidden rounded-3xl shadow-card"
+              imgClassName="h-72 sm:h-96 lg:h-[28rem] object-top"
+            />
+            <div className="space-y-4 lg:px-8">
+              <p className="text-xl font-semibold leading-snug text-foreground sm:text-2xl lg:text-3xl">
+                "Chiedere aiuto non è debolezza. È il primo gesto di cura verso te stessa."
+              </p>
+              <span className="block text-xs font-medium uppercase tracking-[0.25em] text-aqua-deep">
+                — Maria Veronica
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <About />
       <Services />
+
       <Method />
       <ForWhom />
+
+      {/* Immagine 3 — dopo ForWhom: foto + testo approccio */}
+      <section className="py-10 lg:py-16">
+        <div className="container mx-auto px-4">
+          <div className="grid items-center gap-8 lg:grid-cols-2">
+            <div className="order-2 space-y-4 lg:order-1 lg:px-8">
+              <p className="text-xl font-semibold leading-snug text-foreground sm:text-2xl">
+                Ogni percorso nasce da un ascolto reale. Non esistono protocolli standard, solo storie da capire.
+              </p>
+              <span className="block text-xs font-medium uppercase tracking-[0.25em] text-lilac-deep">
+                Approccio sartoriale
+              </span>
+            </div>
+            <RevealImage
+              src={immagine1}
+              alt="Sessione di terapia psicologica in uno studio accogliente"
+              className="order-1 rounded-3xl shadow-card lg:order-2"
+              natural
+            />
+          </div>
+        </div>
+      </section>
+
       <Credentials />
       <Booking />
       <Faq />

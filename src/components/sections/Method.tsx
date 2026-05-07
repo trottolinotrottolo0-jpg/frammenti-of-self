@@ -42,7 +42,7 @@ const Method = () => {
           {steps.map((s, i) => (
             <li
               key={s.n}
-              className="relative rounded-3xl border border-border/60 bg-card p-8 shadow-soft transition-smooth hover:shadow-card hover:-translate-y-1"
+              className="relative rounded-3xl border border-border/60 bg-card p-5 shadow-soft transition-smooth hover:shadow-card hover:-translate-y-1 sm:p-8"
             >
               <span className="font-display text-5xl font-light text-lilac">
                 {s.n}

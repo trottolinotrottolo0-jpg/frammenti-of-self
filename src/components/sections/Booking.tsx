@@ -86,43 +86,43 @@ const Booking = () => {
 
               <div className="relative flex items-center justify-center">
                 <div className="absolute inset-0 m-auto h-80 w-80 rounded-full bg-gradient-soft blur-3xl" aria-hidden />
-                <div className="relative w-full max-w-[28rem] rounded-2xl border border-border bg-background p-8 shadow-soft">
-                  <div className="mb-7 flex items-center justify-between">
+                <div className="relative w-full max-w-[28rem] rounded-2xl border border-border bg-background p-4 shadow-soft sm:p-8">
+                  <div className="mb-5 flex items-center justify-between sm:mb-7">
                     <button
                       type="button"
                       aria-label="Mese precedente"
-                      className="flex h-10 w-10 items-center justify-center text-primary transition-smooth hover:text-lilac-deep"
+                      className="flex h-11 w-11 items-center justify-center rounded-lg text-primary transition-smooth hover:text-lilac-deep hover:bg-lilac-soft"
                       onClick={goToPreviousMonth}
                     >
-                      <ChevronLeft className="h-6 w-6" />
+                      <ChevronLeft className="h-5 w-5" />
                     </button>
-                    <p className="text-center text-lg font-semibold text-primary">
+                    <p className="text-center text-base font-semibold text-primary sm:text-lg">
                       {monthNames[month]} {year}
                     </p>
                     <button
                       type="button"
                       aria-label="Mese successivo"
-                      className="flex h-10 w-10 items-center justify-center text-primary transition-smooth hover:text-lilac-deep"
+                      className="flex h-11 w-11 items-center justify-center rounded-lg text-primary transition-smooth hover:text-lilac-deep hover:bg-lilac-soft"
                       onClick={goToNextMonth}
                     >
-                      <ChevronRight className="h-6 w-6" />
+                      <ChevronRight className="h-5 w-5" />
                     </button>
                   </div>
 
-                  <div className="mb-3 grid grid-cols-7 gap-3">
+                  <div className="mb-2 grid grid-cols-7 gap-1 sm:mb-3 sm:gap-3">
                     {weekDays.map((day) => (
                       <span
                         key={day}
-                        className="text-center text-[0.7rem] font-medium uppercase tracking-widest text-muted-foreground/60"
+                        className="text-center text-[0.6rem] font-medium uppercase tracking-widest text-muted-foreground/60 sm:text-[0.7rem]"
                       >
                         {day}
                       </span>
                     ))}
                   </div>
 
-                  <div className="grid grid-cols-7 gap-3">
+                  <div className="grid grid-cols-7 gap-1 sm:gap-3">
                     {Array.from({ length: leadingEmptyDays }).map((_, i) => (
-                      <span key={`empty-${i}`} className="h-11 w-11" aria-hidden />
+                      <span key={`empty-${i}`} className="h-9 w-9 sm:h-11 sm:w-11" aria-hidden />
                     ))}
                     {Array.from({ length: daysInMonth }).map((_, i) => {
                       const day = i + 1;
@@ -130,7 +130,7 @@ const Booking = () => {
                       return (
                         <span
                           key={day}
-                          className={`flex h-11 w-11 items-center justify-center rounded-full text-sm font-medium transition-smooth ${
+                          className={`flex h-9 w-9 items-center justify-center rounded-full text-xs font-medium transition-smooth sm:h-11 sm:w-11 sm:text-sm ${
                             isActive
                               ? "border border-lilac bg-lilac-soft text-primary hover:bg-lilac/30"
                               : "text-primary hover:bg-lilac-soft"

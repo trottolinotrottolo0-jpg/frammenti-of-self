@@ -43,7 +43,7 @@ const Contact = () => {
               href={href}
               target={href.startsWith("http") ? "_blank" : undefined}
               rel="noopener noreferrer"
-              className={`group flex flex-col items-start gap-4 rounded-3xl p-8 transition-smooth hover:-translate-y-1 ${
+              className={`group flex flex-col items-start gap-4 rounded-3xl p-5 transition-smooth hover:-translate-y-1 sm:p-8 ${
                 highlight
                   ? "bg-aqua-deep text-white shadow-card hover:bg-aqua-deep/90 hover:shadow-glow"
                   : "bg-card shadow-soft hover:shadow-card"

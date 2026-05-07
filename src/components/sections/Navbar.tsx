@@ -54,11 +54,11 @@ const Navbar = () => {
         </div>
 
         <button
-          className="md:hidden text-foreground"
+          className="flex h-11 w-11 items-center justify-center rounded-lg text-foreground transition-smooth hover:bg-lilac-soft md:hidden"
           onClick={() => setOpen(!open)}
-          aria-label="Apri menu"
+          aria-label={open ? "Chiudi menu" : "Apri menu"}
         >
-          {open ? <X /> : <Menu />}
+          {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
       </nav>
 
@@ -70,7 +70,7 @@ const Navbar = () => {
                 <a
                   href={l.href}
                   onClick={() => setOpen(false)}
-                  className="block rounded-lg px-3 py-2 text-sm font-medium text-foreground hover:bg-lilac-soft"
+                  className="flex min-h-[44px] items-center rounded-lg px-3 text-sm font-medium text-foreground hover:bg-lilac-soft"
                 >
                   {l.label}
                 </a>

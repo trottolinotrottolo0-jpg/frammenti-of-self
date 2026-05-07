@@ -54,7 +54,7 @@ const Services = () => {
           {services.map(({ icon: Icon, title, desc }) => (
             <article
               key={title}
-              className="group rounded-3xl bg-card p-8 shadow-soft transition-smooth hover:shadow-card hover:-translate-y-1"
+              className="group rounded-3xl bg-card p-5 shadow-soft transition-smooth hover:shadow-card hover:-translate-y-1 sm:p-8"
             >
               <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-lilac-soft text-lilac-deep transition-smooth group-hover:bg-gradient-primary group-hover:text-primary-foreground">
                 <Icon className="h-6 w-6" />

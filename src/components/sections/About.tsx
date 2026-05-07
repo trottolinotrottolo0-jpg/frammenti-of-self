@@ -38,7 +38,7 @@ const About = () => {
           {points.map(({ icon: Icon, text }) => (
             <li
               key={text}
-              className="group flex items-start gap-5 rounded-2xl bg-gradient-card p-6 shadow-soft transition-smooth hover:shadow-card hover:-translate-y-1"
+              className="group flex items-start gap-4 rounded-2xl bg-gradient-card p-4 shadow-soft transition-smooth hover:shadow-card hover:-translate-y-1 sm:gap-5 sm:p-6"
             >
               <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-lilac-soft text-lilac-deep transition-smooth group-hover:bg-lilac group-hover:text-primary-foreground">
                 <Icon className="h-5 w-5" />

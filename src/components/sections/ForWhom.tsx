@@ -32,7 +32,7 @@ const ForWhom = () => {
         </div>
 
         <div className="mx-auto mt-16 grid max-w-5xl gap-6 md:grid-cols-2">
-          <div className="rounded-3xl border border-aqua/40 bg-aqua-soft/50 p-8 shadow-soft">
+          <div className="rounded-3xl border border-aqua/40 bg-aqua-soft/50 p-5 shadow-soft sm:p-8">
             <h3 className="text-xl font-semibold text-aqua-deep">È per te se</h3>
             <ul className="mt-6 space-y-4">
               {forYou.map((t) => (
@@ -46,7 +46,7 @@ const ForWhom = () => {
             </ul>
           </div>
 
-          <div className="rounded-3xl border border-border bg-card p-8 shadow-soft">
+          <div className="rounded-3xl border border-border bg-card p-5 shadow-soft sm:p-8">
             <h3 className="text-xl font-semibold text-muted-foreground">Non è per te se</h3>
             <ul className="mt-6 space-y-4">
               {notForYou.map((t) => (
