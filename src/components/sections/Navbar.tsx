@@ -30,7 +30,7 @@ const Navbar = () => {
       }`}
     >
       <nav className="container mx-auto flex h-16 items-center justify-between px-4">
-        <a href="#" className="font-display text-base font-semibold tracking-tight text-foreground">
+        <a href="#" className="font-display text-2xl font-semibold tracking-tight text-foreground">
           Studio <span className="text-lilac-deep">Frammenti</span>
         </a>
 

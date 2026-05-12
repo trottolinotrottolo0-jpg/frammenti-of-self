@@ -1,7 +1,6 @@
-import { Heart, Compass, Sparkles } from "lucide-react";
+import { Compass, Sparkles } from "lucide-react";
 
 const points = [
-  { icon: Heart, text: "8 anni di esperienza nel sostegno psicologico" },
   { icon: Compass, text: "Specializzata in maternità e fragilità emotive" },
   { icon: Sparkles, text: "Approccio sartoriale, mai standardizzato" },
 ];

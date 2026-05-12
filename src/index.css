@@ -11,47 +11,47 @@
 @layer base {
   :root {
     --background: 40 30% 98%;
-    --foreground: 280 25% 18%;
+    --foreground: 280 29% 18%;
 
     --card: 0 0% 100%;
-    --card-foreground: 280 25% 18%;
+    --card-foreground: 280 29% 18%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 280 25% 18%;
+    --popover-foreground: 280 29% 18%;
 
     /* Viola rosato profondo — primario */
-    --primary: 320 28% 38%;
+    --primary: 320 33% 38%;
     --primary-foreground: 40 30% 98%;
-    --primary-soft: 320 35% 92%;
+    --primary-soft: 320 41% 92%;
 
     /* Lilla calmo */
-    --lilac: 270 45% 78%;
-    --lilac-soft: 270 55% 94%;
-    --lilac-deep: 270 35% 45%;
+    --lilac: 270 53% 78%;
+    --lilac-soft: 270 65% 94%;
+    --lilac-deep: 270 41% 45%;
 
     /* Verde acqua equilibrio */
-    --aqua: 170 40% 70%;
-    --aqua-soft: 170 50% 94%;
-    --aqua-deep: 175 35% 38%;
+    --aqua: 170 47% 70%;
+    --aqua-soft: 170 59% 94%;
+    --aqua-deep: 175 41% 38%;
 
     /* Bordeaux profondità */
-    --bordeaux: 340 35% 32%;
+    --bordeaux: 340 41% 32%;
 
-    --secondary: 270 40% 96%;
-    --secondary-foreground: 320 28% 30%;
+    --secondary: 270 47% 96%;
+    --secondary-foreground: 320 33% 30%;
 
     --muted: 280 20% 96%;
     --muted-foreground: 280 12% 45%;
 
-    --accent: 170 50% 94%;
-    --accent-foreground: 175 35% 30%;
+    --accent: 170 59% 94%;
+    --accent-foreground: 175 41% 30%;
 
-    --destructive: 0 70% 55%;
+    --destructive: 0 82% 55%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 280 20% 90%;
     --input: 280 20% 90%;
-    --ring: 320 28% 38%;
+    --ring: 320 33% 38%;
 
     --radius: 1rem;
 
