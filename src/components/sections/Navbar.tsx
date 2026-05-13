@@ -30,18 +30,15 @@ const Navbar = () => {
           : "bg-transparent"
       }`}
     >
-      <nav className="container mx-auto flex h-20 items-center justify-between px-4">
-        <a href="#" className="flex items-center gap-3" aria-label="Studio Frammenti — Home">
+      <nav className="container mx-auto flex h-24 items-center justify-between px-4">
+        <a href="#" className="flex items-center" aria-label="Frammenti — Home">
           <img
             src={logo}
-            alt="Studio Frammenti"
-            width={56}
-            height={56}
-            className="h-14 w-14 object-contain"
+            alt="Frammenti"
+            width={96}
+            height={96}
+            className="h-24 w-24 object-contain"
           />
-          <span className="font-display text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
-            Studio <span className="text-lilac-deep">Frammenti</span>
-          </span>
         </a>
 
         <ul className="hidden items-center gap-8 md:flex">
