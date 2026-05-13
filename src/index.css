@@ -10,32 +10,32 @@
 
 @layer base {
   :root {
-    --background: 40 30% 98%;
-    --foreground: 280 29% 18%;
+    --background: 40 35% 98%;
+    --foreground: 280 35% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 280 29% 18%;
+    --card-foreground: 280 35% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 280 29% 18%;
+    --popover-foreground: 280 35% 15%;
 
-    /* Viola rosato profondo — primario */
-    --primary: 320 33% 38%;
-    --primary-foreground: 40 30% 98%;
-    --primary-soft: 320 41% 92%;
+    /* Viola rosato profondo — primario (più saturo) */
+    --primary: 320 55% 42%;
+    --primary-foreground: 40 35% 98%;
+    --primary-soft: 320 65% 90%;
 
-    /* Lilla calmo */
-    --lilac: 270 53% 78%;
-    --lilac-soft: 270 65% 94%;
-    --lilac-deep: 270 41% 45%;
+    /* Lilla più vibrante */
+    --lilac: 270 75% 72%;
+    --lilac-soft: 270 80% 92%;
+    --lilac-deep: 270 60% 48%;
 
-    /* Verde acqua equilibrio */
-    --aqua: 170 47% 70%;
-    --aqua-soft: 170 59% 94%;
-    --aqua-deep: 175 41% 38%;
+    /* Verde acqua più acceso */
+    --aqua: 170 70% 60%;
+    --aqua-soft: 170 70% 92%;
+    --aqua-deep: 175 65% 36%;
 
-    /* Bordeaux profondità */
-    --bordeaux: 340 41% 32%;
+    /* Bordeaux più ricco */
+    --bordeaux: 340 60% 36%;
 
     --secondary: 270 47% 96%;
     --secondary-foreground: 320 33% 30%;

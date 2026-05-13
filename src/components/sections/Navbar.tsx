@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo-frammenti.svg";
 
 const links = [
   { href: "#chi-sono", label: "Chi sono" },
@@ -29,9 +30,18 @@ const Navbar = () => {
           : "bg-transparent"
       }`}
     >
-      <nav className="container mx-auto flex h-16 items-center justify-between px-4">
-        <a href="#" className="font-display text-2xl font-semibold tracking-tight text-foreground">
-          Studio <span className="text-lilac-deep">Frammenti</span>
+      <nav className="container mx-auto flex h-20 items-center justify-between px-4">
+        <a href="#" className="flex items-center gap-3" aria-label="Studio Frammenti — Home">
+          <img
+            src={logo}
+            alt="Studio Frammenti"
+            width={56}
+            height={56}
+            className="h-14 w-14 object-contain"
+          />
+          <span className="font-display text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
+            Studio <span className="text-lilac-deep">Frammenti</span>
+          </span>
         </a>
 
         <ul className="hidden items-center gap-8 md:flex">
