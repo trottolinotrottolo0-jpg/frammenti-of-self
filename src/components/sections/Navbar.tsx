@@ -30,14 +30,14 @@ const Navbar = () => {
           : "bg-transparent"
       }`}
     >
-      <nav className="container mx-auto flex h-24 items-center justify-between px-4">
+      <nav className="container mx-auto flex h-32 items-center justify-between px-4">
         <a href="#" className="flex items-center" aria-label="Frammenti — Home">
           <img
             src={logo}
             alt="Frammenti"
-            width={96}
-            height={96}
-            className="h-24 w-24 object-contain"
+            width={144}
+            height={144}
+            className="h-32 w-32 object-contain"
           />
         </a>
 
