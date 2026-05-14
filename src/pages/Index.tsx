@@ -11,6 +11,7 @@ import Booking from "@/components/sections/Booking";
 import Faq from "@/components/sections/Faq";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/sections/Footer";
+import IntroOverlay from "@/components/IntroOverlay";
 import RevealImage from "@/components/ui/RevealImage";
 import immagine1 from "@/assets/immagine 1.jpg";
 import immagine2 from "@/assets/immagine 2.jpg";
@@ -90,6 +91,7 @@ const Index = () => {
 
   return (
     <main className="min-h-screen overflow-x-clip bg-gradient-hero">
+      <IntroOverlay />
       <div className="fixed left-0 top-0 z-[100] h-[3px] w-0 bg-primary" data-scroll-progress />
       <Navbar />
       <Hero />
