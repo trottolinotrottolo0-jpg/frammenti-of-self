@@ -9,7 +9,8 @@ const IntroOverlay = () => {
     if (typeof window === "undefined") return;
 
     const seen = sessionStorage.getItem("intro-seen");
-    if (seen) {
+    const isMobile = window.matchMedia("(max-width: 767px)").matches;
+    if (seen || !isMobile) {
       setVisible(false);
       return;
     }
