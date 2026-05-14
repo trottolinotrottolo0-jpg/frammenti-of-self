@@ -91,6 +91,7 @@ const Index = () => {
 
   return (
     <main className="min-h-screen overflow-x-clip bg-gradient-hero">
+      <IntroOverlay />
       <div className="fixed left-0 top-0 z-[100] h-[3px] w-0 bg-primary" data-scroll-progress />
       <Navbar />
       <Hero />
