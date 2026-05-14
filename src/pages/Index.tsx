@@ -13,8 +13,8 @@ import Contact from "@/components/sections/Contact";
 import Footer from "@/components/sections/Footer";
 import IntroOverlay from "@/components/IntroOverlay";
 import RevealImage from "@/components/ui/RevealImage";
-import immagine1 from "@/assets/immagine 1.jpg";
-import immagine2 from "@/assets/immagine 2.jpg";
+import immagine1 from "@/assets/immagine-1.jpg";
+import immagine2 from "@/assets/immagine-2.jpg";
 
 const Index = () => {
   useLayoutEffect(() => {

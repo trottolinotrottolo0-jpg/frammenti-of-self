@@ -2,10 +2,10 @@ import { Button } from "@/components/ui/button";
 import { Baby, Wind, HeartHandshake, Brain, Sparkles, Utensils } from "lucide-react";
 import maternita from "@/assets/maternita.jpg";
 import ansia from "@/assets/ansia.jpg";
-import autostima from "@/assets/autostima ed emozioni.jpg";
-import disturbiNeurosviluppo from "@/assets/disturbi del neurosviluppo.jpg";
-import traumiStress from "@/assets/traumi e stress.jpg";
-import disturbiAlimentari from "@/assets/disturbi alimentari.jpg";
+import autostima from "@/assets/autostima-emozioni.jpg";
+import disturbiNeurosviluppo from "@/assets/disturbi-neurosviluppo.jpg";
+import traumiStress from "@/assets/traumi-stress.jpg";
+import disturbiAlimentari from "@/assets/disturbi-alimentari.jpg";
 
 const services = [
   {

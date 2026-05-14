@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Calendar } from "lucide-react";
-import donnaStranaImage from "@/assets/DONNA STRANISSIMA.png";
+import donnaStranaImage from "@/assets/donna-stranissima.png";
 import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
 
 const heroPills = ["Maternità", "Ansia & Traumi", "Autostima"];
