@@ -33,7 +33,7 @@ const Footer = () => {
                 alt="Studio Frammenti"
                 width={88}
                 height={88}
-                className="h-20 w-20 object-contain"
+                className="h-32 w-32 object-contain"
               />
               <span className="font-display text-2xl font-semibold tracking-tight text-foreground">
                 Studio <span className="text-lilac-deep">Frammenti</span>
