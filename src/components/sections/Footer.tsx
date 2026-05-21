@@ -115,7 +115,7 @@ const Footer = () => {
               <li>
                 <span className="flex items-start gap-3 text-sm text-muted-foreground">
                   <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-lilac-deep" />
-                  <span>Via Esempio 12, Milano</span>
+                  <span>Via Roma 17, Niscemi</span>
                 </span>
               </li>
               <li>
