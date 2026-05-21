@@ -94,7 +94,7 @@ const Footer = () => {
             <ul className="mt-5 space-y-3">
               <li>
                 <a
-                  href="https://wa.me/393000000000"
+                  href="https://wa.me/393896334243"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-start gap-3 text-sm text-muted-foreground transition-smooth hover:text-aqua-deep"
@@ -105,11 +105,11 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="mailto:ciao@studioframmenti.net"
+                  href="mailto:info@studioframmenti.net"
                   className="group flex items-start gap-3 text-sm text-muted-foreground transition-smooth hover:text-lilac-deep"
                 >
                   <Mail className="mt-0.5 h-4 w-4 shrink-0 text-lilac-deep" />
-                  <span>ciao@studioframmenti.net</span>
+                  <span>info@studioframmenti.net</span>
                 </a>
               </li>
               <li>
