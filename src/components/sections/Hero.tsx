@@ -13,13 +13,6 @@ const Hero = () => {
       <div className="container relative mx-auto grid min-h-[92vh] items-center gap-8 px-4 py-24 lg:grid-cols-[3fr_2fr] lg:gap-12 lg:py-28">
         <div className="space-y-8">
           <div className="hero-intro hero-intro-1 flex flex-col items-center gap-4">
-            <img
-              src={logo}
-              alt="Studio Frammenti"
-              width={200}
-              height={200}
-              className="h-40 w-40 object-contain drop-shadow-lg"
-            />
             <div className="flex flex-wrap gap-2">
               {heroPills.map((label) => (
                 <span
