@@ -1,15 +1,10 @@
-import { GraduationCap, Award, BadgeCheck } from "lucide-react";
+import { GraduationCap, BadgeCheck } from "lucide-react";
 
 const items = [
   {
     icon: GraduationCap,
     title: "Laurea Magistrale in Psicologia Clinica",
     sub: "Università degli Studi",
-  },
-  {
-    icon: Award,
-    title: "Specializzazione in Psicoterapia",
-    sub: "Approccio integrato centrato sulla persona",
   },
   {
     icon: BadgeCheck,
