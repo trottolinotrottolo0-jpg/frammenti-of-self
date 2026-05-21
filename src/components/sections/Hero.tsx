@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Calendar } from "lucide-react";
 import donnaStranaImage from "@/assets/donna-stranissima.png";
 import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
+import logo from "@/assets/logo-frammenti.svg";
 
 const heroPills = ["Maternità", "Ansia & Traumi", "Autostima"];
 
@@ -11,15 +12,24 @@ const Hero = () => {
 
       <div className="container relative mx-auto grid min-h-[92vh] items-center gap-8 px-4 py-24 lg:grid-cols-[3fr_2fr] lg:gap-12 lg:py-28">
         <div className="space-y-8">
-          <div className="hero-intro hero-intro-1 flex flex-wrap gap-2">
-            {heroPills.map((label) => (
-              <span
-                key={label}
-                className="inline-flex items-center rounded-full border border-lilac/40 bg-white/60 px-4 py-1.5 text-xs font-medium uppercase tracking-widest text-lilac-deep backdrop-blur"
-              >
-                {label}
-              </span>
-            ))}
+          <div className="hero-intro hero-intro-1 flex flex-col items-center gap-4">
+            <img
+              src={logo}
+              alt="Studio Frammenti"
+              width={200}
+              height={200}
+              className="h-40 w-40 object-contain drop-shadow-lg"
+            />
+            <div className="flex flex-wrap gap-2">
+              {heroPills.map((label) => (
+                <span
+                  key={label}
+                  className="inline-flex items-center rounded-full border border-lilac/40 bg-white/60 px-4 py-1.5 text-xs font-medium uppercase tracking-widest text-lilac-deep backdrop-blur"
+                >
+                  {label}
+                </span>
+              ))}
+            </div>
           </div>
 
           <h1 className="hero-intro hero-intro-2 fluid-hero font-semibold leading-[1.15] tracking-tight text-foreground">
@@ -32,7 +42,7 @@ const Hero = () => {
           </h1>
 
           <p className="hero-intro hero-intro-3 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg lg:text-xl">
-            Supporto psicologico per donne che attraversano momenti di cambiamento,
+            Supporto psicologico per chi attraversa momenti di cambiamento,
             sovraccarico emotivo o perdita di sé. Niente protocolli standard: solo
             un percorso costruito su di te.
           </p>
