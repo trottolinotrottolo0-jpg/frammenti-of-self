@@ -1,10 +1,10 @@
 const feelings = [
-  "Ti senti sopraffatta da pensieri che non riesci a fermare",
-  "Hai paura di non essere all'altezza come madre",
+  "Ti senti sopraffatto/a da pensieri che non riesci a fermare",
+  "Hai paura di non essere all'altezza nei tuoi ruoli",
   "Provi ansia, ma intorno a te tutti dicono che dovresti essere felice",
   "Senti il peso di troppe responsabilità tutte insieme",
   "Hai perso il contatto con chi eri prima",
-  "Non riesci a parlarne con nessuno senza sentirti giudicata",
+  "Non riesci a parlarne con nessuno senza sentirti giudicato/a",
 ];
 
 const Empathy = () => {
@@ -16,13 +16,13 @@ const Empathy = () => {
             Ti capisco
           </span>
           <h2 className="mt-4 text-3xl font-semibold leading-tight text-foreground sm:text-4xl lg:text-5xl">
-            Non sei sbagliata. Sei in un momento delicato
+            Non sei sbagliato/a. Sei in un momento delicato
             <span className="block text-lilac-deep">
               che va capito, non giudicato.
             </span>
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            Se anche solo una di queste frasi ti suona familiare, sappi che non sei sola —
+            Se anche solo una di queste frasi ti suona familiare, sappi che non sei solo/a —
             e che chiedere aiuto è il primo gesto di forza.
           </p>
         </div>
