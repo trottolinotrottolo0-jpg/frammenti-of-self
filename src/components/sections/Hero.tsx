@@ -42,7 +42,7 @@ const Hero = () => {
           </h1>
 
           <p className="hero-intro hero-intro-3 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg lg:text-xl">
-            Supporto psicologico per donne che attraversano momenti di cambiamento,
+            Supporto psicologico per chi attraversa momenti di cambiamento,
             sovraccarico emotivo o perdita di sé. Niente protocolli standard: solo
             un percorso costruito su di te.
           </p>
