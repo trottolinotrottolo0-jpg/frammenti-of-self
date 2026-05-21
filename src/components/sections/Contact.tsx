@@ -18,7 +18,7 @@ const contacts = [
   {
     icon: MapPin,
     label: "Studio",
-    value: "Via Esempio 12, Milano",
+    value: "Via Roma 17, Niscemi",
     href: "#",
   },
 ];
