@@ -90,6 +90,11 @@ export default {
           "0%, 100%": { transform: "translateY(0px)" },
           "50%": { transform: "translateY(-12px)" },
         },
+        "wink": {
+          "0%, 88%, 100%": { transform: "rotate(0deg) scale(1)" },
+          "92%": { transform: "rotate(-14deg) scale(1.08)" },
+          "96%": { transform: "rotate(12deg) scale(1.08)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -97,6 +102,7 @@ export default {
         "fade-up": "fade-up 0.7s cubic-bezier(0.4, 0, 0.2, 1) both",
         "fade-in": "fade-in 0.8s ease-out both",
         "float": "float 6s ease-in-out infinite",
+        "wink": "wink 3.5s ease-in-out infinite",
       },
     },
   },

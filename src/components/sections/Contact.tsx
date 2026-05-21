@@ -6,14 +6,14 @@ const contacts = [
     icon: WhatsAppIcon,
     label: "WhatsApp",
     value: "Scrivimi subito",
-    href: "https://wa.me/393000000000",
+    href: "https://wa.me/393896334243",
     highlight: true,
   },
   {
     icon: Mail,
     label: "Email",
-    value: "ciao@studioframmenti.net",
-    href: "mailto:ciao@studioframmenti.net",
+    value: "info@studioframmenti.net",
+    href: "mailto:info@studioframmenti.net",
   },
   {
     icon: MapPin,
