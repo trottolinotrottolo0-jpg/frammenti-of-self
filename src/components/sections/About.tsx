@@ -18,8 +18,9 @@ const About = () => {
           </h2>
           <div className="space-y-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
             <p>
-              Sono una psicologa con otto anni di esperienza al fianco di donne che attraversano
-              la gravidanza, la maternità e i momenti più fragili della vita.
+              Sono una psicologa con anni di esperienza al fianco di chi attraversa momenti di
+              fragilità, specializzata nel supporto Materno-Infantile e nel trattamento dei
+              Disturbi Specifici dell'Apprendimento.
             </p>
             <p>
               Credo nella relazione terapeutica come spazio reale: niente distanza clinica,
