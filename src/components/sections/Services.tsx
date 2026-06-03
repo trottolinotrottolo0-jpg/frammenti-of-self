@@ -92,7 +92,7 @@ const Services = () => {
 
         <div className="mt-14 flex justify-center">
           <Button asChild variant="hero" size="lg">
-            <a href="#prenotazione">Prenota il primo colloquio · 50€</a>
+            <a href="#prenotazione">Prenota il primo colloquio</a>
           </Button>
         </div>
       </div>

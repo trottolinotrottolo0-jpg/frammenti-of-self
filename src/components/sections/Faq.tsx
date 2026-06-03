@@ -7,8 +7,8 @@ import {
 
 const faqs = [
   {
-    q: "Quanto costa una consulenza?",
-    a: "Il primo colloquio conoscitivo ha un costo di 50€ e dura circa 50 minuti. Ti permette di capire se ci sono le condizioni per lavorare insieme, senza alcun impegno.",
+    q: "Come si svolge il primo colloquio?",
+    a: "Il primo colloquio conoscitivo dura circa 50 minuti e ti permette di capire se ci sono le condizioni per lavorare insieme, senza alcun impegno.",
   },
   {
     q: "Si svolge online o in studio?",
