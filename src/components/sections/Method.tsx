@@ -1,3 +1,5 @@
+import logo from "@/assets/logo-frammenti.svg";
+
 const steps = [
   {
     n: "01",
@@ -26,6 +28,7 @@ const Method = () => {
     <section id="metodo" className="py-24 lg:py-32">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-2xl text-center">
+          <img src={logo} alt="Frammenti" className="mx-auto mb-6 h-20 w-20 object-contain" />
           <span className="text-xs font-medium uppercase tracking-[0.25em] text-aqua-deep">
             Il metodo
           </span>

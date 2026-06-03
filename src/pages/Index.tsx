@@ -11,6 +11,7 @@ import Booking from "@/components/sections/Booking";
 import Faq from "@/components/sections/Faq";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/sections/Footer";
+import InstagramFeed from "@/components/sections/InstagramFeed";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 import IntroOverlay from "@/components/IntroOverlay";
 import RevealImage from "@/components/ui/RevealImage";
@@ -151,6 +152,7 @@ const Index = () => {
       <Credentials />
       <Booking />
       <Faq />
+      <InstagramFeed />
       <Contact />
       <Footer />
       <WhatsAppFloat />

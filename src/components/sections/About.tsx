@@ -1,7 +1,8 @@
-import { Compass, Sparkles } from "lucide-react";
+import { Compass, Sparkles, BookOpen } from "lucide-react";
 
 const points = [
   { icon: Compass, text: "Specializzata in maternità e fragilità emotive" },
+  { icon: BookOpen, text: "Specializzata nei Disturbi Specifici dell'Apprendimento" },
   { icon: Sparkles, text: "Approccio sartoriale, mai standardizzato" },
 ];
 
