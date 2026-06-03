@@ -106,8 +106,8 @@ const Index = () => {
             <RevealImage
               src={immagine2}
               alt="Donna in un momento di riflessione davanti ai suoi appunti"
-              className="overflow-hidden rounded-3xl shadow-card"
-              imgClassName="h-72 sm:h-96 lg:h-[28rem] object-top"
+              className="rounded-3xl shadow-card"
+              natural
             />
             <div className="space-y-4 lg:px-8">
               <p className="text-xl font-semibold leading-snug text-foreground sm:text-2xl lg:text-3xl">
