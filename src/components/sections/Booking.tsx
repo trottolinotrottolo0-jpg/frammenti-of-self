@@ -60,7 +60,7 @@ const Booking = () => {
 
                 <ul className="space-y-3 pt-2">
                   {[
-                    { icon: Clock, t: "Primo colloquio conoscitivo · 50 minuti" },
+                    { icon: Clock, t: "Primo colloquio conoscitivo · circa 50 minuti" },
                     { icon: Video, t: "Disponibile in studio o online" },
                     { icon: Calendar, t: "Conferma immediata via email" },
                   ].map(({ icon: Icon, t }) => (
