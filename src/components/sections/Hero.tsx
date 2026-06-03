@@ -57,9 +57,6 @@ const Hero = () => {
             </Button>
           </div>
 
-          <p className="hero-intro hero-intro-4 text-sm text-muted-foreground">
-            Primo colloquio conoscitivo · 50€ · in studio o online
-          </p>
         </div>
 
         <div className="hero-intro hero-intro-5 relative flex items-center justify-center overflow-visible border-0 bg-transparent shadow-none">
