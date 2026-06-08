@@ -1,4 +1,4 @@
-import { GraduationCap, BadgeCheck } from "lucide-react";
+import { GraduationCap, BadgeCheck, ShieldCheck, HeartPulse, Languages } from "lucide-react";
 
 const items = [
   {
@@ -10,6 +10,21 @@ const items = [
     icon: BadgeCheck,
     title: "Iscritta all'Albo degli Psicologi",
     sub: "Ordine Regionale",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Corso di Formazione sulla Igiene e Sicurezza nei luoghi di lavoro",
+    sub: "Ai sensi degli artt. 36-37 del D.lgs 81/08 — Gi One Sicurezza",
+  },
+  {
+    icon: HeartPulse,
+    title: "BLS – Corso di base al Primo Soccorso",
+    sub: "Misericordia di Niscemi, 19 feb 2015 (Nov 2014 – Feb 2015)",
+  },
+  {
+    icon: Languages,
+    title: "Certificazione livello B2 lingua inglese (Q.C.E.R.)",
+    sub: "Centro Linguistico Interfacoltà Kore di Enna",
   },
 ];
 
