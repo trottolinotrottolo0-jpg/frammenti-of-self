@@ -1,46 +1,6 @@
-import { GraduationCap, BadgeCheck, Award, BookOpen, Sparkles, ClipboardList, Users } from "lucide-react";
+import { GraduationCap, BadgeCheck, Award, Sparkles } from "lucide-react";
 
 const items = [
-  {
-    icon: BookOpen,
-    title: "Master Galton in Disturbi Specifici dell'Apprendimento (DSA)",
-    sub: "In corso",
-  },
-  {
-    icon: Sparkles,
-    title: "Corso di Specializzazione Operatore olistico Materno-Infantile",
-    sub: "Associazione Mamme-Contatto — dal 31 gen 2023, attualmente in corso",
-  },
-  {
-    icon: BookOpen,
-    title: "Corso ABA e interventi multidisciplinari",
-    sub: "Aba Friendly — 3/4 e 10/11 dicembre 2022",
-  },
-  {
-    icon: BookOpen,
-    title: "Comunicazione Aumentativa Alternativa (CAA) nei disturbi del linguaggio",
-    sub: "Igea Corsi — dal 15/03/2022 al 31/12/2022",
-  },
-  {
-    icon: ClipboardList,
-    title: "Registro Regionale dei Formatori e del Personale della Formazione Professionale",
-    sub: "Area funzionale 3 — Profilo 1, Formatore",
-  },
-  {
-    icon: Users,
-    title: "Iscrizione Formatori Professionisti ANFOP",
-    sub: "Aprile 2022",
-  },
-  {
-    icon: BadgeCheck,
-    title: "Iscritta all'Albo degli Psicologi della Regione Siciliana — Sez. A",
-    sub: "N. 10782 — dal 04/02/2022",
-  },
-  {
-    icon: Award,
-    title: "Specializzazione ASACOM — Assistente all'autonomia e alla comunicazione dei disabili",
-    sub: "Struttura formativa Futura, 2019 — voto 100",
-  },
   {
     icon: GraduationCap,
     title: "Laurea Magistrale in Psicologia Clinica (LM-51)",
@@ -50,6 +10,21 @@ const items = [
     icon: GraduationCap,
     title: "Laurea Triennale in Scienze e Tecniche Psicologiche (L-24)",
     sub: "Università degli Studi Kore di Enna, 2012 — voto 106",
+  },
+  {
+    icon: Award,
+    title: "Specializzazione ASACOM — Assistente all'autonomia e alla comunicazione dei disabili",
+    sub: "Struttura formativa Futura, 2019 — voto 100",
+  },
+  {
+    icon: Sparkles,
+    title: "Master Galton in Disturbi Specifici dell'Apprendimento (DSA)",
+    sub: "In corso",
+  },
+  {
+    icon: BadgeCheck,
+    title: "Iscritta all'Albo degli Psicologi della Regione Siciliana — Sez. A",
+    sub: "N. 10782 — dal 04/02/2022",
   },
 ];
 
