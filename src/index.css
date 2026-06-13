@@ -10,70 +10,72 @@
 
 @layer base {
   :root {
-    --background: 32 55% 96%;
-    --foreground: 25 30% 18%;
+    --background: 32 60% 97%;
+    --foreground: 25 25% 25%;
 
-    --card: 36 60% 99%;
-    --card-foreground: 25 30% 18%;
+    --card: 36 65% 99%;
+    --card-foreground: 25 25% 25%;
 
-    --popover: 36 60% 99%;
-    --popover-foreground: 25 30% 18%;
+    --popover: 36 65% 99%;
+    --popover-foreground: 25 25% 25%;
 
-    /* Viola rosato caldo — primario */
-    --primary: 340 55% 44%;
-    --primary-foreground: 36 60% 99%;
-    --primary-soft: 340 65% 92%;
+    /* Viola rosato pastello — primario */
+    --primary: 340 50% 72%;
+    --primary-foreground: 25 30% 20%;
+    --primary-soft: 340 70% 94%;
+    --primary-ink: 340 45% 48%;
 
-    /* Lilla caldo (vira al rosato) */
-    --lilac: 310 65% 74%;
-    --lilac-soft: 24 70% 92%;
-    --lilac-deep: 320 50% 50%;
+    /* Lilla pastello (rosa cipria) */
+    --lilac: 310 55% 86%;
+    --lilac-soft: 24 75% 95%;
+    --lilac-deep: 320 40% 70%;
 
-    /* Verde acqua più morbido e caldo (vira al salvia) */
-    --aqua: 160 40% 62%;
-    --aqua-soft: 40 60% 92%;
-    --aqua-deep: 175 35% 38%;
+    /* Verde acqua pastello (menta salvia) */
+    --aqua: 160 38% 82%;
+    --aqua-soft: 40 65% 95%;
+    --aqua-deep: 175 28% 62%;
 
-    /* Bordeaux caldo */
-    --bordeaux: 350 55% 38%;
+    /* Bordeaux ammorbidito (rosa antico) */
+    --bordeaux: 350 40% 65%;
 
-    --secondary: 32 50% 94%;
-    --secondary-foreground: 25 35% 28%;
+    --secondary: 32 55% 95%;
+    --secondary-foreground: 25 30% 30%;
 
-    --muted: 32 35% 93%;
-    --muted-foreground: 25 15% 42%;
+    --muted: 32 40% 95%;
+    --muted-foreground: 25 15% 45%;
 
-    --accent: 28 65% 92%;
-    --accent-foreground: 25 40% 30%;
+    --accent: 28 70% 94%;
+    --accent-foreground: 25 35% 32%;
 
-    --destructive: 0 82% 55%;
+    --destructive: 0 70% 70%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 30 30% 88%;
-    --input: 30 30% 88%;
-    --ring: 340 45% 40%;
+    --border: 30 35% 91%;
+    --input: 30 35% 91%;
+    --ring: 340 50% 72%;
 
     --radius: 1rem;
 
-    /* Gradienti morbidi e caldi */
-    --gradient-hero: radial-gradient(ellipse at top right, hsl(20 75% 90%) 0%, transparent 50%),
-                     radial-gradient(ellipse at 8% 28%, hsl(35 80% 90% / 0.95) 0%, transparent 42%),
-                     radial-gradient(ellipse at 88% 58%, hsl(340 60% 88% / 0.45) 0%, transparent 38%),
-                     radial-gradient(ellipse at 18% 86%, hsl(28 75% 90% / 0.9) 0%, transparent 45%),
-                     linear-gradient(180deg, hsl(var(--background)) 0%, hsl(28 70% 92% / 0.55) 46%, hsl(20 60% 90% / 0.6) 100%);
-    --gradient-soft: linear-gradient(135deg, hsl(28 75% 92%) 0%, hsl(340 55% 92%) 100%);
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--lilac-deep)) 100%);
-    --gradient-card: linear-gradient(160deg, hsl(36 70% 99%) 0%, hsl(28 65% 94% / 0.6) 100%);
+    /* Gradienti pastello acquarello */
+    --gradient-hero: radial-gradient(ellipse at top right, hsl(20 80% 94%) 0%, transparent 50%),
+                     radial-gradient(ellipse at 8% 28%, hsl(35 85% 94% / 0.95) 0%, transparent 42%),
+                     radial-gradient(ellipse at 88% 58%, hsl(340 70% 93% / 0.55) 0%, transparent 38%),
+                     radial-gradient(ellipse at 18% 86%, hsl(160 50% 93% / 0.7) 0%, transparent 45%),
+                     linear-gradient(180deg, hsl(var(--background)) 0%, hsl(28 75% 95% / 0.6) 46%, hsl(20 70% 94% / 0.6) 100%);
+    --gradient-soft: linear-gradient(135deg, hsl(28 80% 95%) 0%, hsl(340 65% 94%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--lilac)) 100%);
+    --gradient-card: linear-gradient(160deg, hsl(36 75% 99%) 0%, hsl(28 70% 96% / 0.7) 100%);
 
-    /* Ombre delicate */
-    --shadow-soft: 0 4px 24px -8px hsl(var(--primary) / 0.12);
-    --shadow-card: 0 8px 32px -12px hsl(var(--lilac-deep) / 0.18);
-    --shadow-glow: 0 0 60px -10px hsl(var(--lilac) / 0.5);
+    /* Ombre delicate pastello */
+    --shadow-soft: 0 4px 24px -8px hsl(var(--primary) / 0.10);
+    --shadow-card: 0 8px 32px -14px hsl(var(--lilac-deep) / 0.14);
+    --shadow-glow: 0 0 60px -10px hsl(var(--lilac) / 0.4);
 
     /* Transizioni */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+
 
 @layer base {
   * {
